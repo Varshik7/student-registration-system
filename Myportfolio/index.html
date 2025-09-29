@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+     <!-- Header -->
+  <header>
+    <nav>
+      <h1>Varshik Reddy</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <label class="switch">
+  <input type="checkbox" disabled>
+  <span class="slider"></span>
+</label>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+  <div class="home-content">
+    <h1>Welcome to My Portfolio</h1>
+    <h1>Hi, I'm <span>Varshik Reddy</span></h1>
+    <h3>Web Developer | SAP Enthusiast | Tech Learner</h3>
+    <p>
+      I am a passionate developer who loves building clean, responsive, 
+      and user-friendly websites using <strong>HTML, CSS, and JavaScript</strong>. 
+      I also have skills in <strong>SAP (MM)</strong> and a strong background 
+      from my <strong>B.Tech in Computer Science</strong>.  
+    </p>
+    <p>
+      My goal is to become a <strong>Full Stack Developer</strong> and work on 
+      impactful projects that make a difference. 🚀
+    </p>
+    <div class="home-buttons">
+      <a href="#projects" class="btn">View My Work</a>
+      <a href="#contact" class="btn secondary">Contact Me</a>
+      <a href="#contact" class="btn secondary">Download Resume</a>
+    </div>
+  </div>
+  <div class="home-right">
+    <img src="Images/img.jpg" alt="Profile Picture" class="profile-pic">
+  </div>
+
+</section>
+<div class="social-icons">
+  <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+  <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <img src="Images/img.jpg" alt="Varshik img">
+    <div class="about__container">
+    <div class="about__image">
+    <p>
+      Hello! I'm <strong>Varshik Reddy</strong>, an aspiring web developer with a strong
+      academic and technical background. I have completed my
+      <strong>B.Tech in Computer Science</strong>, where I have gained knowledge in
+      programming, software development, and problem-solving.
+    </p>
+
+    <p>
+      I am passionate about <strong>web development</strong> and enjoy creating
+      responsive, interactive, and user-friendly websites using
+      <strong>HTML, CSS, and JavaScript</strong>. Along with my core studies, I
+      have completed certifications to enhance my skills.
+    </p>
+    <input type="checkbox" id="read-more-toggle" class="read-more-checkbox">
+     <!-- Read More (no JS) -->
+      <details class="about__more">
+        <summary class="btn">Read more</summary>
+        <div class="about__more-text">
+          <p>
+            Over the past year I've built portfolio sites, restaurant menus, and landing pages
+            using HTML5, CSS3 (Flexbox/Grid), and a sprinkle of animations.
+          </p>
+          <p>
+            Skills: HTML, CSS, Responsive Design, Git/GitHub, basic accessibility, and debugging layouts.
+          </p>
+        </div>
+      </details>
+    </div>
+  </div>
+  </section>
+
+<section class="skills">
+  <h2>My Skills</h2>
+
+  <div class="circle-container">
+    <div class="circle html">
+      <span>90%</span>
+      <p>HTML</p>
+    </div>
+
+    <div class="circle css">
+      <span>80%</span>
+      <p>CSS</p>
+    </div>
+
+    <div class="circle MySQL">
+      <span>70%</span>
+      <p>MYSQL</p>
+    </div>
+     <div class="circle dbms">
+      <span>70%</span>
+      <p>DBMS</p>
+    </div>
+  </div>
+</section>
+
+  </section>
+  <!-- Education Section -->
+<section id="education">
+  <h2>Education</h2>
+  <div class="edu-card">
+    <h3>Bachelor of Technology (B.Tech) in Computer Science</h3>
+    <p>Malla Reddy University, 2020 - 2024</p>
+  </div>
+  <div class="edu-card">
+    <h3>Intermediate (Class 12)</h3>
+    <p>Narayana Junior College, 2018 - 2020</p>
+  </div>
+  <div class="edu-card">
+    <h3>Secondary School (Class 10)</h3>
+    <p>Narayana Olympiad School, 2018</p>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="cert-container">
+    
+    <div class="card">
+      <h3>AWS Cloud Foundations</h3>
+      <p>Certified by Amazon Web Services</p>
+      <a href="Certifications/aws.pdf" target="_blank" class="btn">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>SAP S/4HANA (MM)</h3>
+      <p>Certified by SAP Global Coach IT Academy</p>
+      <a href="Certifications/sap.pdf" target="_blank" class="btn">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>Web Development</h3>
+      <p>Internshala Trainings</p>
+      <a href="Certifications/web.pdf" target="_blank" class="btn">View Certificate</a>
+    </div>
+
+  </div>
+</section>
+    <!-- Projects Section -->
+  <section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Parkinson's Disease Detection</h3>
+    <ul>
+      <li>Developed a deep learning model using Decision Tree and Random Forest for symptom detection.</li>
+      <li>Helped neurologists and researchers distinguish various symptoms with higher accuracy.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>Advancing Natural Language Processing for Telugu Literature</h3>
+    <ul>
+      <li>Built a synthetic monolingual corpus generator using GRU and GAN models.</li>
+      <li>Enabled rural people to interact in Telugu via a chatbot-like system with Streamlit UI.</li>
+      <li>Focused on low-resource NLP challenges for underrepresented languages.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>Restaurant Menu Website (HTML & CSS)</h3>
+    <ul>
+      <li>Designed and developed a responsive restaurant menu webpage with categories like Starters, Main Course, Desserts, and Drinks.</li>
+       <li>Implemented hover effects, responsive layout, and pricing alignment for better user experience.</li>
+    </ul>
+  </div>
+</section>
+
+  <section id="contact" class="contact">
+  <div class="contact-content">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to reach out through the following:</p>
+
+    <div class="contact-info">
+      <p>📧 <strong>Email:</strong> <a href="mailto:reddyvarshik9@gmail.com">reddyvarshik9@gmail.com</a></p>
+      <p>📱 <strong>Phone:</strong> <a href="tel:+917093350287">+91 7093350287</a></p>
+      <p>🌐 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/varshik-reddy-8a1266227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </div>
+
+    <!-- Optional Contact Form -->
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+  <footer class="footer">
+  <div class="footer-content">
+    <p>© 2025 Varshik Reddy | All Rights Reserved</p>
+    <div class="footer-links">
+      <a href="#call" class="btn">Call</a>
+      <a href="#email" class="btn">Email</a>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/varshik-reddy-8a1266227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">🔗 LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
