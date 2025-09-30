@@ -32,7 +32,7 @@ It allows users to register student details (Student Name, Student id, Email id,
 3.	Make sure the following files are present:
     index.html
     style.css
-    script.js
+    app.js
     README.md 
 
 4.	Run the project:
