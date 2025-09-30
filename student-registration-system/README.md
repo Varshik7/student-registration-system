@@ -21,3 +21,26 @@ It allows users to register student details (Student Name, Student id, Email id,
 ---
 
 ## 📂 Project Structure
+
+
+## 🛠 Setup Instructions
+1. Clone the repository or download as ZIP:
+   ```bash
+   git clone https://github.com/your-username/student-registration-system.git
+
+2. Open the project folder in VS Code (or any code editor).
+3.	Make sure the following files are present:
+    index.html
+    style.css
+    script.js
+    README.md 
+
+4.	Run the project:
+	•	Just double-click index.html → it will open in your default browser.
+	•	Or right-click index.html → Open with Live Server (if you have the VS Code Live Server extension).
+
+5.	Start using the system 🎉
+	•	Fill the form with Student Name, Student id, Email id, Contact Number.
+	•	Click Add Student → record will appear in the table.
+	•	Use Edit or Delete buttons to manage records.
+	•	Data is stored in localStorage, so it stays even after refreshing.
