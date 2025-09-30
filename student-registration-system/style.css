@@ -28,11 +28,8 @@ main {
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-#form-section h2:hover{
-    display: inline;
+#form-section:hover{
     border: 1px solid #0077b6;
-    border-radius: 5%;
-    padding: 3px;
     box-shadow: #005f87 0px 0px 8px 0px;
 }
 
@@ -74,11 +71,8 @@ main {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-#display-section h2:hover{
-    display: inline;
+#display-section:hover{
     border: 1px solid #0077b6;
-    border-radius: 5%;
-    padding: 3px;
     box-shadow: #005f87 0px 0px 8px 0px;
 }
 
